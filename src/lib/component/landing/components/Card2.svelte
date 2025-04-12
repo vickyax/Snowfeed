@@ -1,9 +1,11 @@
 <script lang="ts">
-	import Button from './Button.svelte';
+	import { Container } from 'postcss';
 	export let content1: string = 'Default content';
 	export let image: string = 'Default content';
 	export let content2: string = 'Default content';
 	export let link: string = '#';
+    
+	// export let btn: string = 'Default content';
 	import { fade, scale } from 'svelte/transition';
 
 	// Corrected combined fade and scale transition
@@ -19,7 +21,7 @@
 	}
 </script>
 
-<div class="w-full text-[10px] md:w-1/3 p-6 flex flex-col flex-grow flex-shrink font-arial">
+<div class="lg:w-[500px] md:w-[300px] my-auto text-sm mt-[150px] sm:w-[200px] flex float-left p-6 font-arial">
 	<a href={link} class="no-underline hover:no-underline">
 		<div 
 			class="bg-white rounded shadow p-4 flex items-start transform hover:shadow-[0px_3px_7px_0px_#2d63c2] transition-transform duration-300 hover:scale-105"

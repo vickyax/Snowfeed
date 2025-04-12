@@ -1,10 +1,8 @@
-import * as server from '../entries/pages/pages/Sell/_page.server.js';
+
 
 export const index = 5;
 let component_cache;
-export const component = async () => component_cache ??= (await import('../entries/pages/pages/Sell/_page.svelte.js')).default;
-export { server };
-export const server_id = "src/routes/pages/Sell/+page.server.js";
-export const imports = ["_app/immutable/nodes/5.DJA0x_wO.js","_app/immutable/chunks/scheduler.Dp99Kf9S.js","_app/immutable/chunks/i18n.BjaMe3-q.js","_app/immutable/chunks/index.DWRTwPXy.js","_app/immutable/chunks/index.DobJMaQm.js","_app/immutable/chunks/firebase.oAohSgv-.js"];
-export const stylesheets = ["_app/immutable/assets/5.CSOin4Rk.css"];
+export const component = async () => component_cache ??= (await import('../entries/pages/pages/chatbot/_page.svelte.js')).default;
+export const imports = ["_app/immutable/nodes/5.DUbFdKUR.js","_app/immutable/chunks/scheduler.S6DL91gn.js","_app/immutable/chunks/index.LwDIcy15.js","_app/immutable/chunks/i18n.DnWy1hS9.js","_app/immutable/chunks/index.DdtjHf-s.js","_app/immutable/chunks/groq-client.DgbtWs4X.js","_app/immutable/chunks/Nav.DLDruXeX.js","_app/immutable/chunks/entry.DO5NEvma.js"];
+export const stylesheets = ["_app/immutable/assets/5.ByZQD_MU.css","_app/immutable/assets/Nav.Bvmey5DK.css"];
 export const fonts = [];

@@ -1,7 +1,7 @@
 import { d as derived, w as writable } from "./index2.js";
 const translations = {
   en: {
-    "page.title": "In-Farmer",
+    "page.title": "Snowfeed",
     "login": "Login",
     "services": "Services",
     "menu": "Menu",
@@ -10,18 +10,18 @@ const translations = {
     "buy": "Buy",
     "sell": "sell",
     "slogan1": "Farming made easier",
-    "slogan2": "Be Independent and Farm at your own pace",
-    "slogan3": "Register yourself as a Farmer, Retailer or a Transporter",
+    "slogan2": "Before you panic, ask our repair bot",
+    "slogan3": "Your AI mechanic is always on call",
     "start": "Get Started",
-    "slogan4": "Registration made simple",
+    "slogan4": "Fixing made simple",
     "guide": "Guidelines",
     "team": "Our team will guide you through the registration process.",
     "help": "For Help and more information about the Registration process click on",
-    "trade": "Get your licence and Start Trading!",
-    "treg": "Transporters needs to register their vehicles along the registration process",
+    "trade": "Get your licence and Start Earning!",
+    "treg": "Technicians need to obtain their service licence",
     "info": "For more information",
     "link": "Link",
-    "farm": "Get your own Farm",
+    "farm": "Our Services",
     "fin": "Get Financial support",
     "scheme": "Learn more about Micro-Irrigation, PM kisan, Krishi Udan Scheme, and many more...",
     "ct": "Contact Land Owners",
@@ -53,7 +53,7 @@ const translations = {
     "itl": "Items List"
   },
   தமிழ்: {
-    "page.title": "இன்-பார்மர்",
+    "page.title": "ச்நோவ்பீத்",
     "login": "புகுபதிகை",
     "services": "சேவைகள்",
     "menu": "மெனு",

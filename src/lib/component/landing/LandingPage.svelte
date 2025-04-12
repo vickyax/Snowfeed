@@ -6,30 +6,26 @@
 	import Cards from './Cards.svelte';
 	import CallToAction from './CallToAction.svelte';
 	import Footer from './Footer.svelte';
-	
+	import Scroller from './components/Scroller.svelte';
+	import Chatbot from './Chatbot.svelte';
 </script>
 
 <div
-	class="leading-normal tracking-normal text-white gradient"
+	class=" text-white gradient gap-2 justify-around"
 	style="font-family: 'Source Sans Pro', sans-serif;"
 >
 	<Nav />
-	
+	<Cards />
+	<Scroller/>
 	<Hero />
-
+	<Chatbot />
 	<Feature2 />
 
 	<Features />
 
-	<Cards />
 
 	<CallToAction />
 
 	<Footer />
 </div>
 
-<style>
-	.gradient {
-		@apply bg-gradient-to-r from-pink to-yellow;
-	}
-</style>

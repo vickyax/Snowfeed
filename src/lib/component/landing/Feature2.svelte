@@ -8,15 +8,12 @@
       </div>
       <div class="flex flex-wrap">
         <div class="w-5/6 sm:w-1/2 p-6">
-          <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+          <h3 class="text-3xl text-gray-800  font-bold leading-none mb-3">
             {$t("slogan4")}
           </h3>
-          <h1 class="text-gray-600 mb-8">
-              {$t("slogan3")}
-            </h1>
             
             <button
-            class="flex text-center justfy-center items-center mx-auto lg:mx-0 hover:underline bg-green-700 text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-110 duration-300 ease-in-out"
+            class="flex  text-center justfy-center items-center mx-auto lg:mx-0  bg-green-700 text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-110 duration-300 ease-in-out"
             >
             Book a Call
         </button>

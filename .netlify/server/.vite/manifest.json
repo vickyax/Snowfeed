@@ -20,7 +20,7 @@
       "_app/immutable/assets/Nav.Bvmey5DK.css"
     ],
     "assets": [
-      "_app/immutable/assets/farmer.Brvt1bwG.png"
+      "_app/immutable/assets/snowfeed.bLvMZ7r-.png"
     ]
   },
   "_client.js": {
@@ -37,6 +37,10 @@
   "_firebase.js": {
     "file": "chunks/firebase.js",
     "name": "firebase"
+  },
+  "_groq-client.js": {
+    "file": "chunks/groq-client.js",
+    "name": "groq-client"
   },
   "_i18n.js": {
     "file": "chunks/i18n.js",
@@ -89,9 +93,9 @@
       "_index2.js"
     ]
   },
-  "src/lib/farmer.png": {
-    "file": "_app/immutable/assets/farmer.Brvt1bwG.png",
-    "src": "src/lib/farmer.png"
+  "src/lib/snowfeed.png": {
+    "file": "_app/immutable/assets/snowfeed.bLvMZ7r-.png",
+    "src": "src/lib/snowfeed.png"
   },
   "src/routes/+layout.svelte": {
     "file": "entries/pages/_layout.svelte.js",
@@ -102,7 +106,7 @@
       "_ssr.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.Bw2ltvCk.css"
+      "_app/immutable/assets/_layout.FzxlQ1Mw.css"
     ]
   },
   "src/routes/+page.svelte": {
@@ -113,10 +117,11 @@
     "imports": [
       "_ssr.js",
       "_Nav.js",
-      "_i18n.js"
+      "_i18n.js",
+      "_groq-client.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.CwETYYzf.css"
+      "_app/immutable/assets/_page.BOfZcsn_.css"
     ]
   },
   "src/routes/api/add/+server.js": {
@@ -204,6 +209,29 @@
     ],
     "css": [
       "_app/immutable/assets/_page.CSOin4Rk.css"
+    ]
+  },
+  "src/routes/pages/chatbot/+page.svelte": {
+    "file": "entries/pages/pages/chatbot/_page.svelte.js",
+    "name": "entries/pages/pages/chatbot/_page.svelte",
+    "src": "src/routes/pages/chatbot/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_groq-client.js",
+      "_Nav.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.ByZQD_MU.css"
+    ]
+  },
+  "src/routes/pages/technicians/+page.svelte": {
+    "file": "entries/pages/pages/technicians/_page.svelte.js",
+    "name": "entries/pages/pages/technicians/_page.svelte",
+    "src": "src/routes/pages/technicians/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
     ]
   }
 }
