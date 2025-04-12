@@ -1,5 +1,9 @@
 {
     "css.customData": [".vscode/tailwind.json"],
     "scss.lint.unknownAtRules": "ignore",
-    "files.associations": { "*.scss": "postcss" }
+    "files.associations": {
+      "*.scss": "postcss"
+    },
+    "IDX.aI.enableInlineCompletion": true,
+    "IDX.aI.enableCodebaseIndexing": true
   }
